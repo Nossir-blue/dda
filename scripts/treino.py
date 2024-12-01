@@ -1,5 +1,5 @@
 import tensorflow as tf
-from tf.keras import layers, models
+from tensorflow.keras import layers, models
 from scripts.preprocesso import carregarImagens
 
 # Carrega os dados
