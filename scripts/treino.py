@@ -22,7 +22,7 @@ modelo = models.Sequential([
     layers.Flatten(),
     layers.Dense(128, activation='relu'),
     layers.Dropout(0.5),
-    layers.Dense(1, activation='sigmoid')  # Binary classification
+    layers.Dense(1, activation='sigmoid')  # Classificação de binário
 ])
 
 # Compila o modelo
